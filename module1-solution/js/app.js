@@ -1,29 +1,3 @@
-//(function(){
-//    'use strict';
-// angular.module('LunchCheck', [])
-//    .controller('LunchCheckController', LunchCheckController)
-//    
-// LunchCheckController.$inject = ['$scope'];
-//   function LunchCheckController($scope){
-//     $scope.items = "";
-//       $scope.checkLength=function(){
-//           var x = $scope.items.split(" ");
-////           return x.length;
-//           if(x.length <= 3){
-//               return "Enjoy!";
-//           }else{
-//               return "Too much!";
-//           }
-//               
-//          
-//          console.log(LunchCheckController()) 
-//       }
-//      
-//   } 
-//    
-//    
-//    
-//})();
 
 (function(){
     'use strict';
@@ -57,10 +31,7 @@
            }
                
         
-//        $scope.color1 = {
-//            "color" : "green"
-//        }
-        
+
        }
       
    } 
