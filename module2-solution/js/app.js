@@ -30,11 +30,11 @@
         var boughtItem = [];
         var toBuyItems = [
             {name: 'rice', quantity: '10 bags'},
-			{name: 'beans', quantity: '4 boxes'},
-			{name: 'Orange juice', quantity: '4 botles'},
-			{name: 'Soda drinks', quantity: '2 botles'},
+			{name: 'beans', quantity: '4 bags'},
+			{name: 'Five Alive', quantity: '4 bottles'},
+			{name: 'Water', quantity: '2 bottles'},
 			{name: 'yam', quantity: '10 tubers'},
-			{name: 'Milk', quantity: '4 botles'}
+			{name: 'Milk', quantity: '4 bottles'}
             
         ];
         
