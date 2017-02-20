@@ -1,0 +1,21 @@
+
+   
+<ul>
+   <div>
+    <li ng-repeat="item in items">
+        
+        <div><b>Name: </b>{{item.name}}</div>
+        <div><b>Description: </b>{{item.description}}</div>
+        <button ng-click="onRemove({index: $index});">Don't want this one!</button>
+        
+    </li>
+    </div>
+    
+    <div ng-show="items.length === 0">Nothing found</div>
+</ul>
+       
+       
+
+  
+
+   
