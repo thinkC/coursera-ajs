@@ -20,7 +20,6 @@
     NarrowItDownController.$inject = ['MenuSearchService'];
     function NarrowItDownController(MenuSearchService){
         var narrowCtrl = this;
-        // narrowCtrl.found = [];
         narrowCtrl.search = function(searchTerm){
             narrowCtrl.found = MenuSearchService.getMatchedMenuItems(narrowCtrl.searchTerm);
             ;
