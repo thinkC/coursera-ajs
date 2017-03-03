@@ -1,0 +1,7 @@
+
+<ul>
+<li ng-repeat="item in $ctrl.items">
+<!--    <a ui-sref="categories-items({categoryShortName: item.short_name})">{{item.name}}</a>-->
+    <a ui-sref="items({categoryShortName: item.short_name})">{{item.name}} ({{item.short_name}})</a>   <!-- the value of categoryShortName which is item.short_name is passed.
+</li>
+</ul>
